@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jornal Wakanda</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background: #f5eddc;
+      color: #005452;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.92);
+    }
+
+    .header {
+      text-align: center;
+      border-bottom: 3px double #000;
+      padding-bottom: 10px;
+    }
+
+    .header h1 {
+      font-family: 'UnifrakturCook', cursive;
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .header .subtitle {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      border-bottom: 1px solid #000;
+      padding: 10px 0;
+      margin-bottom: 20px;
+    }
+
+    .article {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #999;
+      padding-bottom: 20px;
+    }
+
+    .article h2 {
+      font-size: 24px;
+      font-weight: bold;
+      border-bottom: 1px dashed #666;
+      margin-bottom: 10px;
+    }
+
+    .article img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #333;
+      margin: 10px 0;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .highlight {
+      background-color: #e6f2f3;
+      padding: 15px;
+      border: 2px solid #005452;
+      margin-bottom: 40px;
+    }
+
+    .footer {
+      font-style: italic;
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px double #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Wakanda News</h1>
+      <div class="subtitle">Conheça Wakanda – A cidade inteligente mais comunicativa mundialmente</div>
+    </div>
+
+    <div class="meta">
+      <span>Edição Comemorativa Nº 10</span>
+      <span>Sábado, 28 de Junho de 2025</span>
+      <span>Preço: gratuito</span>
+    </div>
+
+    <div class="highlight">
+      <h2>Slogan da Cidade</h2>
+      <p><strong>“Não se perde quem vive conectado – Bem-vindo à Wakanda”</strong></p>
+      <p>Wakanda não é apenas uma cidade inteligente — é uma filosofia de vida. O slogan “Não se perde quem vive conectado” traduz com perfeição o espírito desse lugar extraordinário, onde a conexão vai além do sinal de internet ou dos dispositivos tecnológicos.</p>
+      <p>Em Wakanda, estar conectado significa estar integrado à comunidade, à cultura, à natureza e ao conhecimento. A cidade pulsa em sincronia com seus cidadãos, proporcionando uma experiência de vida onde tudo está ao alcance — desde a informação mais complexa até o gesto mais humano.</p>
+    </div>
+
+    <div class="row">
+      <div class="column article">
+        <h2>Cidade dos sonhos</h2>
+        <img src="https://i.pinimg.com/736x/4d/8e/78/4d8e78aca7102d12b9d5a28a2544d9a2.jpg" alt="Wakanda paisagem">
+        <p>Se você já sonhou em viver em um lugar onde a tecnologia se encontra em perfeita harmonia com a natureza e a cultura, prepare-se para conhecer Wakanda. Este enclave não é apenas uma simples cidade, mas sim um verdadeiro símbolo de inovação e sustentabilidade. À medida que nos aventuramos pelas ruas vibrantes e tecnológicas de Wakanda, prepare-se para surpreender-se com o que esta metrópole futurista tem a oferecer!</p>
+        <p>Wakanda é frequentemente retratada pelas lentes da ficção, mas sua essência vai muito além das telas de cinema.</p>
+        <img src="https://i.pinimg.com/736x/29/d5/6d/29d56d5da0b99fa0ca069f8e82787173.jpg" alt="Wakanda cultura">
+      </div>
+
+      <div class="column article">
+        <h2>Tecnologia e comunicação</h2>
+        <img src="https://i.pinimg.com/736x/fe/95/6b/fe956bf841a71aa019b3795de85af274.jpg" alt="Wakanda tech">
+        <p>Imagine um metrô que não apenas leva você ao seu destino, mas também fornece recomendações personalizadas de acordo com seus gostos e preferências. Já pensou em pedir um taco no almoço e, enquanto espera, receber uma notificação sobre o evento cultural que está prestes a acontecer na praça central? Em Wakanda, isso não apenas é possível, mas é a norma!</p>
+        <p>O que torna essa cidade um ícone global é sua impressionante capacidade de intercambiar informações em tempo real, utilizando uma rede de comunicação avançada que conecta todos os cidadãos. Com um sistema de inteligência artificial que facilita a vida cotidiana, desde o transporte público até as atividades comerciais, Wakanda redefine como interagimos com nosso ambiente.</p>
+        <img src="https://i.pinimg.com/736x/84/68/ac/8468ac12edb0a469dd45b9863d0e8de7.jpg" alt="Wakanda paisagem">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column article">
+        <h2>Cultura e tecnologia juntos?</h2>
+        <p>Além da tecnologia de ponta, Wakanda é um caldeirão cultural que celebra suas tradições e costumes. Os habitantes da cidade são conhecidos por sua hospitalidade e amor ao diálogo, criando um ambiente onde a comunicação é, literalmente, uma arte. A dinâmica entre os cidadãos é tão cativante que você pode facilmente se pegar parando um desconhecido para uma conversa animada sobre ciência, arte ou o último avanço em energias renováveis.</p>
+        <p>E se você acha que já ouviu tudo, espere até descobrir as incríveis inovações sustentáveis que permeiam cada aspecto da vida em Wakanda. Desde edifícios que se autoabastecem de energia solar até sistemas de cultivo vertical que oferecem alimentos frescos para a comunidade, a cidade é um verdadeiro exemplo de ecologia urbana. Com uma infraestrutura projetada para minimizar a pegada de carbono, Wakanda é o lugar onde o futuro é agora.</p>
+        <img src="https://i.pinimg.com/736x/e2/19/16/e2191675372d855ffd12addb695946b6.jpg" alt="Wakanda sustentável">
+      </div>
+
+      <div class="column article">
+        <h2>Humor e brincadeiras estão aqui também!</h2>
+        <p>Entretanto, não podemos esquecer do toque de humor que caracteriza a vida cotidiana na cidade. Os wakandanos adoram brincar com a tecnologia e frequentemente compartilham memes e vídeos divertidos sobre suas aventuras com dispositivos inteligentes. Seja enfrentando um robô aspirador rebelde ou tentando entender as dicas do assistente pessoal que parece ter vida própria, a diversão faz parte do cotidiano.</p>
+        <p>Seja você um entusiasta da tecnologia, um amante da cultura ou apenas alguém em busca de boas risadas, Wakanda promete uma experiência única que vai muito além do que a imaginação pode abranger. As portas estão abertas para aqueles que desejam explorar essa cidade inteligente e comunicativa, onde o futuro é brilhante, e a criatividade nunca tem fim.</p>
+         <img src="https://i.pinimg.com/736x/ce/dd/15/cedd15b1692835dcc6e14c307bf257e5.jpg" alt="Wakanda paisagem">
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Wakanda News — Onde o futuro é agora.</p>
+    </div>
+  </div>
+</body>
+</html>
